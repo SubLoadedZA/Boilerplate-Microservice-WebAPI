@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  boilerplate-microservice-webapi:
+    image: ${DOCKER_REGISTRY-}boilerplatemicroservicewebapi
+    build:
+      context: .
+      dockerfile: Boilerplate-Microservice-WebAPI/Dockerfile
