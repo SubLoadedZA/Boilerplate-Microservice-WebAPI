@@ -31,6 +31,7 @@ Docker
 - [ ] Allow Abstractions from Repositories (implement IRepositories...)
 - [ ] Logging - seperate project - injectable as service/middleware or inherited and used
 - [ ] Authentication (JWT etc) - injectable/wrapper or inherited and used
+- [ ] Flurl/HttpClient support 
 
 <!-- CONTRIBUTING -->
 ## Contributing
