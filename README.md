@@ -7,17 +7,23 @@
 
   <p align="center">
     Project created to streamline new API development. 
-    Currently set up with Models, Repositories and Interfaces that allow basic extension of CRUD contracts.
+    Currently set up with Controllers, Models, Repositories and Interfaces that allow basic extension on CRUD contracts.
     Project has been setup to use Docker-Compose and can also be run with IIS Express. 
   </p>
 </div>
 
 ### Built With
 
-.NET 6.0
-C# 10
-EFCore
+.NET 6.0,
+C# 10,
+EFCore,
 Docker
+
+### How to
+
+- [ ] Grab the code and ensure .NET 6.0 SDK is available on dev environment
+- [ ] Update SQL connection string in appsettings.json
+- [ ] Entity Framework Core Migrations --> Open Package Manager Console, type command "Add-Migration" and give that a meaningful name for e.g. InitialCreation and      press enter. Run "update-database" command to apply migrations to DB. 
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -40,4 +46,5 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
 
